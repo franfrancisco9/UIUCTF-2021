@@ -12,25 +12,43 @@ I participated in Team FF9 and placed 135 with 659 points.
 Any suggestions let me know! Here is my discord *Franfrancisco9 #0105*
 
 List of the categories and challenges I solved:
-- meta
-    - [Merry Christmas!](https://github.com/franfrancisco9/X-MAS-CTF-2020/blob/main/README.md#merry-christmas-55-points)
-    - [The place where all the elves hang out](https://github.com/franfrancisco9/X-MAS-CTF-2020/blob/main/README.md#the-place-where-all-the-elves-hang-out--55-points)
+- meta (the hard ones)
+    - [Welcome to UIUCTF'21]()
+    - [Join our Discord]()
 - osint
-    - [Conversation](https://github.com/franfrancisco9/X-MAS-CTF-2020/blob/main/README.md#conversation-2650-points)
-List of the categories and challenges I did not solved during the competition time but attempted during:
+    - [OSINT The Creator]()
+    - [OSINT The Creator 2]()
+    - [Chaplin's PR Nightmare - 1]()
+    - [Chaplin's PR Nightmare - 2]()
+    - [Chaplin's PR Nightmare - 3]()
+    - [Chaplin's PR Nightmare - 4]()
+    - [Chaplin's PR Nightmare - 5]()
+    - [Chaplin's PR Nightmare - 6]()
+    - [Chaplin's PR Nightmare - 7]()
+ 
+List of the categories and challenges I attempeted but did not solved during the competition time:
+- osint
+    -  [Chaplin's PR Nightmare - 8]()
 -jail
-    - [PMB](https://github.com/franfrancisco9/X-MAS-CTF-2020/blob/main/README.md#pmb-5050-points)
-    - [Bobi's Whacked](https://github.com/franfrancisco9/X-MAS-CTF-2020#bobis-whacked-5050-points)
-    - [Whispers of Ascalon](https://github.com/franfrancisco9/X-MAS-CTF-2020/blob/main/README.md#whispers-of-ascalon-5050-points)
+    - [phpfuck]()
+    - [baby_python_fixed]()
+    - [baby_python]()
    
 *Note: For every challenge I will present the points they had at the end of the competition (the points are adjusted during the competition according to the number of solves)*
 
 *Note 2: For every challenge I will give my personall evaluation of difficulty*
 
+*Flags in the format uiuctf{...}*
+
 ## meta
->Introductory category and just for fun 
+>Introductory category and just for fun. Usually called sanity.
 
+#### **Welcome to UIUCTF'21 (1 Point)**
 
-#### **Merry Christmas! (5/5 Points)**
+First challenge when you entered the competition made for fun as a welcoming text, flag was given in the beautiffull background of the CTF main page:
+>uiuctf{secret_pictures}
 
-First challenge when you entered the competition made for fun as a welcoming text, flag was given in the description:
+#### **Join our Discord (1 Point)**
+
+Second challenge was the classic discord one wher the flag is usually in the description of one of the channels, usually the rules one.
+>uiuctf{y0u_j01n3d_tH3_dIsCorD!!!}
