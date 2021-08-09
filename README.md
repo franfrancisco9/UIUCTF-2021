@@ -19,14 +19,15 @@ List of the categories and challenges I solved:
     - [OSINT The Creator](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/README.md#osint-the-creator-50-points)
     - [OSINT The Creator 2](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/README.md#osint-the-creator-2-50-points)
     - [Chaplin's PR Nightmare Challenges](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/README.md#chaplins-pr-nightmare)
-        -[Number 1]()
-        -[Number 2]()
-        -[Number 3]()
-        -[Number 4]()
-        -[Number 5]()
-        -[Number 6]()
-        -[Number 7]()
-        -[Number 8]()
+    
+        -[Number 1](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/README.md#1)
+        -[Number 2](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/README.md#2)
+        -[Number 3](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/README.md#3)
+        -[Number 4](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/README.md#4)
+        -[Number 5](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/README.md#5)
+        -[Number 6](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/README.md#6)
+        -[Number 7](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/README.md#7)
+        -[Number 8](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/README.md#8)
         
 -jail
     - [phpfuck]()
