@@ -258,7 +258,36 @@ Connect to the given ip and send our payload:
 
 This challenge was great because we can clearly learn about all these amazing ways to trick filtering systems!
 
-### **baby_python (133 Points)**
+### **baby_python (362 Points)**
+So as mentioned this jail was very much the same except for that tiny detail  ```[^a-z\s]```. Let's understand whatr is happening here:
+>We have  ```[a-z\s]``` which means the same as above, any character in the range from a to z, with the  ```\s``` making sure you also do not have whitespace.
+>Extra we have  ```^```, which inside brakets mean "not".
 
+So we can only use letters a to z and anything else is blocked (which includes brackets, points, unicode, etc). Now that is stressfull.
+During the competion I was not understanding how to overcome this obstacle, but later with more time and patience I thought of something you often see in python codes:
+>from "somewhere" import "a thing" as "another thing"
 
+Well this could be very usefull since it is totally legal and we could try and use the functions already being called in the program to our advantage.
 
+The ```exit()``` function is clearly the one to exploit since it comes right after our input was executed meaning when we pass through bad with with no problems (meaning it would just call exit) it will actually call another function.
+
+In a online effort to find a function that would be helpfull I found [this](https://stackoverflow.com/questions/14368449/code-interact-and-imports-definitions-visibility) link about a doubt in imports. Funny enough they talk about code.interact.
+
+A bit more research in the official python website we gather the following information:
+>code — Interpreter base classes
+>The code module provides facilities to implement read-eval-print loops in Python. Two classes and convenience functions are included >which can be used to build applications which provide an interactive interpreter prompt.
+>code.interact: Convenience function to run a read-eval-print loop. This creates a new instance of InteractiveConsole
+>InteractiveConsole:Closely emulate the interactive Python console. 
+
+Wait a second! This is what we want! So we now know the "somewhere" (code), "a thing" (interact) an the "another thing" (exit).
+We can now sen the following line:
+>from code import interact as exit
+>We receive:
+>>>>
+
+Great! Now we just do the normal procedure 
+>import os
+>os.system('cat flag')
+>uiuctf{}
+
+This challenge was really fun to do calmly after and learn a lot about regex, as well as several interesting functions you can use in python! Great job!
