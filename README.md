@@ -52,3 +52,15 @@ First challenge when you entered the competition made for fun as a welcoming tex
 
 Second challenge was the classic discord one wher the flag is usually in the description of one of the channels, usually the rules one.
 >uiuctf{y0u_j01n3d_tH3_dIsCorD!!!}
+
+## osint
+>Category that consists in looking online for clues and hints to find the flags
+
+### **OSINT The Creator**
+This first challenge was very straightfoward. The description said th following:
+
+>There is a flag on a few of the organizer's profiles. Find it!
+
+By opening one of said profiles we see a "\spoiler" text:
+
+![Image of OSINT The Creator](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/OSINT_Creator.png)
