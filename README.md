@@ -64,3 +64,6 @@ This first challenge was very straightfoward. The description said th following:
 By opening one of said profiles we see a "\spoiler" text:
 
 ![Image of OSINT The Creator](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/OSINT_Creator.png)
+
+Just click it and we get our flag:
+>uiuctf{@b0uT_m3_suppOrT5_maRkD0wN}
