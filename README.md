@@ -83,4 +83,24 @@ For this sequence of challenges (1 to 8) I will go through the line I followed d
 As an add-on this was by far the best OSINT I have ever did, mainly because there is a story and line you can follow from challenge to challenge making it entertaining as well as ver amusing.
 
 **1:**
+This challenge introduces the story!
+>Charlie Chaplin has gotten into software development, coding, and the like... He made a company, but it recently came under fire for a PR disaster. He got all over the internet before he realized the company's mistake, and is now scrambling to clean up his mess, but it may be too late!! Find his Twitter Account and investigate!
 
+So we need to look for an account of CC that is related to coding and software on twitter.
+
+By searching on people for "Charlie Chaplin Coding" we immediatelly hit jackpot:
+
+![Image PR 1]()
+
+Scroll down a bit and we see a tweet that has the following:
+>A list of my favorite things
+>1. Lists
+>2. /lists
+>3. Twitter
+><3
+And with a reply:
+>Check out my other lists
+
+Hmmm, suspicious, let's check these famous lists.
+There we find a "Super Comedic Code" list where we have our first flag:
+>uiuctf{pe@k_c0medy!}
