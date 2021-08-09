@@ -209,6 +209,47 @@ Now, this was very interesting, because it never occurred to me the concept of G
 In the end, this was with no doubt the best OSINT set of challenges so far, from the storyline to the sheer creativity throughout the challenges, it was an all-around amazing experience!
 
 ## jail
+>Category where you have to find an exploit to "escape" a kind of jail, usually php or python! One of the areas I am trying to learn more as it is becoming one of my favourite challenges! Sadly, I did not complete any of these challenges mainly due to lack of time, but made sure to try and solve them by myself!
+
+### **phpfuck (50 Points)**
+This challenge was the classic "Do not judge a book by its cover" (which I did at first). 
+
+We were given a link that open the following page:
+
+![phpfuck]()
+
+Below was nothing too interesting beside info on php version, etc.
+My problem here was not looking at another challenge called phpfuck_fixed, which has the exactly same initial page.
+
+That would have alerted me that there must be something here easier than trying to xploit the str_replace and others.
+
+Inded there was! A simple solution which is a great first approach from now on. My acessing the site with /flag.php at the end we got to a page that only said:
+>No flag for you!
+
+I actually found this during the competition but lacked the curious mind to always check everything. If we view the page source we get the flag!
+> uiuctf{pl3as3_n0_m0rE_pHpee}
+
+### **baby_python_fixed (133 Points)**
+This challenge had the following description as well as a file with some code:
+>whoops, I made a typo on the other chal. it's probably impossible, right? Python version is 3.8.10 and flag is at /flag
+>nc baby-python-fixed.chal.uiuc.tf 1337
+
+```python 
+import re
+bad = bool(re.search(r'[a-z\s]', (input := input())))
+exec(input) if not bad else print('Input contained bad characters')
+exit(bad)
+```
+The difference between the two baby_python challenges is that in the ```[a-z\s]``` (which is basically checking if any letter is present in the input) is replaced with ```[^a-z\s]```. We will adress the last one in the other challenge.
+
+So these means we need to acess our jail but we are not allowed to use any letter. While that seems rather impossible, python has this funny thing with unicode characters where they are interperted as letters while not actually being the same ones which are being filtered above, which include italic letters! Now that is perfect, we now just need to convert something like following line to not use letters:
+>__import__('os').system('cat flag')
+>Note: If you new to python jails and all this seems giberish I recommend you to check [this](https://book.hacktricks.xyz/misc/basic-python/bypass-python-sandboxes) link, which approaches some of the basics!
+
+We can easily convert import and system to italic ([online](https://lingojam.com/ItalicTextGenerator) or using word):
+>__𝘪𝘮𝘱𝘰𝘳𝘵__('𝘰𝘴').𝘴𝘺𝘴𝘵𝘦𝘮('𝘤𝘢𝘵 𝘧𝘭𝘢𝘨')
+The proble is doing italic for 'os' or 'cat flag' will not work as they are inside the string. A good workaround this is just to use chr in italic and write the strings as ASCII:
+>__𝘪𝘮𝘱𝘰𝘳𝘵__('𝘰𝘴').𝘴𝘺𝘴𝘵𝘦𝘮('𝘤𝘢𝘵 𝘧𝘭𝘢𝘨')
 
 
 
