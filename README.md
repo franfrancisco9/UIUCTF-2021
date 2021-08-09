@@ -30,7 +30,7 @@ List of the categories and challenges I solved:
 - jail
     - [phpfuck](https://github.com/franfrancisco9/UIUCTF-2021#phpfuck-50-points)
     - [baby_python_fixed](https://github.com/franfrancisco9/UIUCTF-2021#baby_python_fixed-133-points)
-    - [baby_python]()
+    - [baby_python](https://github.com/franfrancisco9/UIUCTF-2021#baby_python-362-points)
    
 *Note: For every challenge, I will present the points they had at the end of the competition (the points are adjusted during the competition according to the number of solves)*
 
