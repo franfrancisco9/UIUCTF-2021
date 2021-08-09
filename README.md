@@ -28,8 +28,8 @@ List of the categories and challenges I solved:
         - [Number 7](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/README.md#7)
         - [Number 8](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/README.md#8)
 - jail
-    - [phpfuck]()
-    - [baby_python_fixed]()
+    - [phpfuck](https://github.com/franfrancisco9/UIUCTF-2021#phpfuck-50-points)
+    - [baby_python_fixed](https://github.com/franfrancisco9/UIUCTF-2021#baby_python_fixed-133-points)
     - [baby_python]()
    
 *Note: For every challenge, I will present the points they had at the end of the competition (the points are adjusted during the competition according to the number of solves)*
@@ -216,7 +216,7 @@ This challenge was the classic "Do not judge a book by its cover" (which I did a
 
 We were given a link that open the following page:
 
-![phpfuck]()
+![phpfuck](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/phpfuck.png)
 
 Below was nothing too interesting beside info on php version, etc.
 My problem here was not looking at another challenge called phpfuck_fixed, which has the exactly same initial page.
