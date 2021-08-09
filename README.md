@@ -71,9 +71,16 @@ Just click it and we get our flag:
 ### **OSINT The Creator 2 (50 Points)**
 For this one I have to admit I complicated way too much.
 
-I thought twitter was too obvious so ended up checking every other possible social media of the creator, even went so far as to pm him for Signal info ahah.
+I thought twitter was too obvious so ended up checking every other possible social media of the creator, even went so far as to pm him for Signal info ahah(sorry :) ).
 
 For context I did that in the first 20 minutes as I was trying to get first blood, then we got the hint that it was twitter only.
 
 Then it was just a matter of doing "CTRL F" with "uiuctf{" and scroll down through twitter until I got a match, and sure thing:
 >uiuctf{it5_@_sEcr3t_t0ol_thAT_w!ll_he7p_u$_l@ter}
+
+### **Chaplin's PR Nightmare**
+For this sequence of challenges (1 to 8) I will go through the line I followed during the competition.
+As an add-on this was by far the best OSINT I have ever did, mainly because there is a story and line you can follow from challenge to challenge making it entertaining as well as ver amusing.
+
+**1:**
+
