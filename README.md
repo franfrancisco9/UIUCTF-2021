@@ -34,8 +34,6 @@ List of the categories and challenges I solved:
    
 *Note: For every challenge, I will present the points they had at the end of the competition (the points are adjusted during the competition according to the number of solves)*
 
-*Note 2: For every challenge, I will give my personal evaluation of difficulty*
-
 *Flags in the format uiuctf{...}*
 
 ## meta
@@ -288,6 +286,6 @@ We can now sen the following line:
 Great! Now we just do the normal procedure 
 >import os
 >os.system('cat flag')
->uiuctf{}
+>uiuctf{just_kidding_about_the_chal_being_broken_lol_11a7b8}
 
 This challenge was really fun to do calmly after and learn a lot about regex, as well as several interesting functions you can use in python! Great job!
