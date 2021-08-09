@@ -90,7 +90,7 @@ So we need to look for an account of CC that is related to coding and software o
 
 By searching on people for "Charlie Chaplin Coding" we immediatelly hit jackpot:
 
-![Image PR 1]()
+![Image PR 1](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/PR_1.png)
 
 Scroll down a bit and we see a tweet that has the following:
 >A list of my favorite things
