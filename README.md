@@ -116,4 +116,83 @@ By minut 0:57 we notice in red the flag below the IBM symbol! Jackpot!
 **3.**
 On the video description there was a note about checking the website on the channel, so we went to the "about" sction and got a link to a very fancy website:
 
-![PR3]()
+![PR3](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/PR_3.png)
+
+Now for the sake of the lenght of this writeup I won't go about the contents of the entire website, although they are worth it, as it certainly took a lot of time and dedication, so [here](https://www.charliechaplin.dev) is the link if you want to check it out.
+
+In the main page you have a section with pictures of Charlie Chaplin that you can swipe. If you zoom on the second one you see our next flag hidden in the computer monitor!
+>uiuctf{ch@pl1n_i5_eL337}
+
+**5.**
+Here I did not follow the challenge order, because as mentioned I was not even checking the descriptions and just following the natural flow of the overall setup.
+
+In OSINT challenges you should always check for hidden links/information everywhere!
+
+In the "About Us" section you could press an image of Charlie Chaplin with cane, redirecting you yo an imgur account. Hmmm, that smeels like another flag to me.
+
+By clicking in the account name we would see two other photos, of Charlie Chaplin and the police (adequate since he seems to have released some bad files). Here it is for fun just because it is actually really funny:
+
+![PR5](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/PR_5.png)
+
+In the one called "Charlie Chaplin Busted by Police" the comment had our flag:
+>Charlie Chaplin Busted by Police
+
+**4.**
+Done in the wrong order but that was part of the fun of it. 
+
+After the imgur flag I decided to go and finish analyzing the website.
+
+Sure enough, in the "Contact" section there was a very suspicious form, so obviously, as a good OSINT investigator I just filled it randomly to see if we had any luck.
+Sure enough:
+>uiuctf{w3_d0_nOt_v@lu3_yoUR_1nPuT}
+
+**6.**
+At the end of the sam page of the form in challenge 5 we see the following:
+
+>You can also find us on Linkedin, but you will have to search for us I forget what our name is, either like >"Charlie Chaplin Coding or Development" or "C3D" something like that.
+
+Alright, so let's open Linkedin and search for that account and try some combinations:
+
+>"Charlie Chaplin Coding or Development" - nothing
+>"C3D" - nothing
+>"Charlie Chaplin C3D" - nothing
+>"Charlie C3D" - Bingo!
+
+![PR6](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/PR_6.png)
+
+Quick scan and we see that he has some activity to check out.
+
+Hosting an event, but nothing interesting there. But next the following comment:
+
+>Had a great time at the event that I ran a few days ago.
+>I hope everyone liked their top hats :)
+
+Checking the experience we see that the event is called "Top Hat Development Night".
+
+We search for it and there it was!
+>uiuctf{pr0f3s5iOn@l_bUs1n3sS_envIroNm3n7}
+
+**7.**
+For this one I checked the description which mentioned GitHub, hopefully not too many Charlie Chaplin's there.
+
+Luckily we see that there is a Charlie Chalin Dev account (same name as the linkedin use, everything connected :))
+
+![PR7](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/PR_7.png)
+
+Opening "C3D-Official" repository I immediately checked the commits.
+
+We first have a security.txt that was deleted let's check out the contents:
+
+>If this computer has a vulnerability, email me at charliechaplin.dev@gmail.com please thank
+
+Ok, an email let's save that for later.
+
+Further down we see "Ok phew resolved issue #3". So we need to check this issue, by clicking in #3. 
+
+There we see a very dramatic message with the flag.
+>KEY KEY KEY BAD BAD BAD COMPANY KEY RELEASED BAD BAD BAD
+>WHAT DO I DO DELET DELET DELETE
+>uiuctf{th3_TrUe_pR_N1gHtm@r3}
+
+
+
