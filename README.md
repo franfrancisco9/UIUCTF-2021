@@ -82,6 +82,8 @@ Then it was just a matter of doing "CTRL F" with "uiuctf{" and scroll down throu
 For this sequence of challenges (1 to 8) I will go through the line I followed during the competition.
 As an add-on this was by far the best OSINT I have ever did, mainly because there is a story and line you can follow from challenge to challenge making it entertaining as well as ver amusing.
 
+Also, this allowed to actually go through the entire challenges without checking the descriptions of each one, just by following the hints, truly amazing!
+
 **1:**
 This challenge introduces the story!
 >Charlie Chaplin has gotten into software development, coding, and the like... He made a company, but it recently came under fire for a PR disaster. He got all over the internet before he realized the company's mistake, and is now scrambling to clean up his mess, but it may be too late!! Find his Twitter Account and investigate!
@@ -104,3 +106,14 @@ And with a reply:
 Hmmm, suspicious, let's check these famous lists.
 There we find a "Super Comedic Code" list where we have our first flag:
 >uiuctf{pe@k_c0medy!}
+
+**2.**
+For the next challenge I just followed the youtube link at the twitter bio which opened a classic old video of Charlie Chaplin in an IBM add (I reccomend you to watch [it](https://www.youtube.com/watch?v=LniQBHja9bw)).
+
+By minut 0:57 we notice in red the flag below the IBM symbol! Jackpot!
+>uiuctf{ch@plin_on_th3_tV!!}
+
+**3.**
+On the video description there was a note about checking the website on the channel, so we went to the "about" sction and got a link to a very fancy website:
+
+![PR3]()
