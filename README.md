@@ -56,8 +56,8 @@ Second challenge was the classic discord one wher the flag is usually in the des
 ## osint
 >Category that consists in looking online for clues and hints to find the flags
 
-### **OSINT The Creator**
-This first challenge was very straightfoward. The description said th following:
+### **OSINT The Creator (50 Points)**
+This first challenge was very straightfoward. The description said the following:
 
 >There is a flag on a few of the organizer's profiles. Find it!
 
@@ -67,3 +67,13 @@ By opening one of said profiles we see a "\spoiler" text:
 
 Just click it and we get our flag:
 >uiuctf{@b0uT_m3_suppOrT5_maRkD0wN}
+
+### **OSINT The Creator 2 (50 Points)**
+For this one I have to admit I complicated way too much.
+
+I thought twitter was too obvious so ended up checking every other possible social media of the creator, even went so far as to pm him for Signal info ahah.
+
+For context I did that in the first 20 minutes as I was trying to get first blood, then we got the hint that it was twitter only.
+
+Then it was just a matter of doing "CTRL F" with "uiuctf{" and scroll down through twitter until I got a match, and sure thing:
+>uiuctf{it5_@_sEcr3t_t0ol_thAT_w!ll_he7p_u$_l@ter}
