@@ -13,18 +13,12 @@ Any suggestions let me know! Here is my discord *Franfrancisco9 #0105*
 
 List of the categories and challenges I solved:
 - meta (the hard ones)
-    - [Welcome to UIUCTF'21]()
-    - [Join our Discord]()
+    - [Welcome to UIUCTF'21](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/README.md#welcome-to-uiuctf21-1-point)
+    - [Join our Discord](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/README.md#join-our-discord-1-point)
 - osint
-    - [OSINT The Creator]()
-    - [OSINT The Creator 2]()
-    - [Chaplin's PR Nightmare - 1]()
-    - [Chaplin's PR Nightmare - 2]()
-    - [Chaplin's PR Nightmare - 3]()
-    - [Chaplin's PR Nightmare - 4]()
-    - [Chaplin's PR Nightmare - 5]()
-    - [Chaplin's PR Nightmare - 6]()
-    - [Chaplin's PR Nightmare - 7]()
+    - [OSINT The Creator](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/README.md#osint-the-creator-50-points)
+    - [OSINT The Creator 2](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/README.md#osint-the-creator-2-50-points)
+    - [1 to 7 Chaplin's PR Nightmare Challenges](https://github.com/franfrancisco9/UIUCTF-2021/blob/main/README.md#chaplins-pr-nightmare)
  
 List of the categories and challenges I attempeted but did not solved during the competition time:
 - osint
