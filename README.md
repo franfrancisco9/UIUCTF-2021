@@ -240,9 +240,9 @@ exit(bad)
 ```
 The difference between the two baby_python challenges is that in the ```[a-z\s]``` (which is basically checking if any letter is present in the input) is replaced with ```[^a-z\s]```. We will adress the last one in the other challenge.
 
-So these means we need to acess our jail but we are not allowed to use any letter. While that seems rather impossible, python has this funny thing with unicode characters where they are interperted as letters while not actually being the same ones which are being filtered above, which include italic letters! Now that is perfect, we now just need to convert something like following line to not use letters:
+So these means we need to acess our jail but we are not allowed to use any letter. While that seems rather impossible, python has this funny thing with unicode characters where they are interperted as letters while not actually being the same ones which are being filtered above, which include italic letters! Now that is perfect, we now just need to convert something like the following line to not use letters:
 >__import__('os').system('cat flag')
->Note: If you new to python jails and all this seems giberish I recommend you to check [this](https://book.hacktricks.xyz/misc/basic-python/bypass-python-sandboxes) link, which approaches some of the basics!
+>Note: If you are new to python jails and all this seems giberish I recommend you to check [this](https://book.hacktricks.xyz/misc/basic-python/bypass-python-sandboxes) link, which approaches some of the basics!
 
 We can easily convert import and system to italic ([online](https://lingojam.com/ItalicTextGenerator) or using word):
 >__𝘪𝘮𝘱𝘰𝘳𝘵__('𝘰𝘴').𝘴𝘺𝘴𝘵𝘦𝘮('𝘤𝘢𝘵 𝘧𝘭𝘢𝘨')
